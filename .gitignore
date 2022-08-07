@@ -33,15 +33,4 @@ out/
 /nbdist/
 /.nb-gradle/
 
-### VS Code ###
-.vscode/
-将删除 .gitignore
-将删除 chat-common/pom.xml
-将删除 chat-common/src/
-将删除 chat-common/target/
-将删除 chat-netty/pom.xml
-将删除 chat-netty/src/
-将删除 chat-netty/target/
-将删除 chat/pom.xml
-将删除 chat/src/
-将删除 pom.xml
+
