@@ -14,8 +14,7 @@ public class FriendController {
     @Autowired
     private FriendService friendService;
 
-
-    @RequestMapping(value = "/getAllFriend")
+        @RequestMapping(value = "/getAllFriend")
     public FriendResponse getAllFriend(@RequestParam String fromCode) {
         return friendService.getAllFriend(fromCode);
     }

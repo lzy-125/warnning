@@ -1,5 +1,6 @@
 package com.example.chat.common;
 
+import com.google.gson.annotations.Expose;
 import lombok.Data;
 
 import java.util.List;
@@ -11,7 +12,8 @@ import java.util.List;
 @Data
 public class MessageResponse {
 
+    @Expose
     private Integer code;
-
+    @Expose
     private List<Message> messages;
 }

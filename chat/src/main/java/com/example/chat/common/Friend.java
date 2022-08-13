@@ -1,15 +1,14 @@
 package com.example.chat.common;
 
-import lombok.AllArgsConstructor;
+import com.google.gson.annotations.Expose;
 import lombok.Data;
-import lombok.NoArgsConstructor;
 
 @Data
-@AllArgsConstructor
-@NoArgsConstructor
 public class Friend {
-
+    @Expose
     private Integer id;
+    @Expose
     private String fromCode;
+    @Expose
     private String toCode;
 }

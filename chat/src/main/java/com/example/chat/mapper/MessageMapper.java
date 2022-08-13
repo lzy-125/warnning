@@ -3,6 +3,7 @@ package com.example.chat.mapper;
 import com.example.chat.common.Message;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
 
 import java.util.List;
@@ -16,8 +17,8 @@ public interface MessageMapper {
      * @param toCode
      * @return
      */
-    @Select({"select * from message WHERE fromCode = #{fromCode} AND toCode = #{toCode}"})
-    List<Message> getAllMessage(String fromCode, String toCode);
+    @Select({"select * from message WHERE fromCode=#{fromCode} AND toCode=#{toCode}"})
+    List<Message> getAllMessage(@Param("fromCode") String fromCode, @Param("toCode") String toCode);
 
     /**
      * 插入单条聊天信息

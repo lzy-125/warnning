@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.*;
 @CrossOrigin
 @Log4j2
 @RestController
+@RequestMapping("/chat")
 public class MessageController {
 
     @Autowired

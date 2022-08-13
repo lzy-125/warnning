@@ -1,5 +1,6 @@
 package com.example.chat.common;
 
+import com.google.gson.annotations.Expose;
 import lombok.Data;
 
 import java.util.Set;
@@ -10,7 +11,8 @@ import java.util.Set;
  */
 @Data
 public class FriendResponse {
+    @Expose
     private Integer code;
-
+    @Expose
     private Set<Friend> friends;
 }
