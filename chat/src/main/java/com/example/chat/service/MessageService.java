@@ -1,9 +1,10 @@
 package com.example.chat.service;
 
-import com.example.chat.common.Message;
+
+import chat.mapper.MessageMapper;
+import chat.model.Message;
 import com.example.chat.common.MessageParam;
 import com.example.chat.common.MessageResponse;
-import com.example.chat.mapper.MessageMapper;
 import com.example.constants.Constants;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

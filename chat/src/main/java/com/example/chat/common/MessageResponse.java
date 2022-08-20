@@ -1,8 +1,8 @@
 package com.example.chat.common;
 
+import chat.model.Message;
 import com.google.gson.annotations.Expose;
 import lombok.Data;
-
 import java.util.List;
 
 /**

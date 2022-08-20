@@ -1,6 +1,6 @@
-package com.example.chat.mapper;
+package chat.mapper;
 
-import com.example.chat.common.Friend;
+import chat.model.Friend;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;
 

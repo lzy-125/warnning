@@ -1,6 +1,6 @@
 package com.example.chat.controller;
 
-import com.example.chat.common.Message;
+import chat.model.Message;
 import com.example.chat.service.MessageService;
 import com.google.gson.Gson;
 import lombok.extern.log4j.Log4j2;

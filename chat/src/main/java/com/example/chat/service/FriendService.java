@@ -1,8 +1,9 @@
 package com.example.chat.service;
 
-import com.example.chat.common.Friend;
+
+import chat.mapper.FriendMapper;
+import chat.model.Friend;
 import com.example.chat.common.FriendResponse;
-import com.example.chat.mapper.FriendMapper;
 import com.example.chat.util.Constants;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

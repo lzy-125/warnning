@@ -12,6 +12,7 @@
         <module>chat</module>
         <module>chat-common</module>
         <module>chat-netty</module>
+        <module>mapper-model</module>
     </modules>
 
     <properties>

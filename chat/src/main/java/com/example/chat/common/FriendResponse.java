@@ -1,5 +1,6 @@
 package com.example.chat.common;
 
+import chat.model.Friend;
 import com.google.gson.annotations.Expose;
 import lombok.Data;
 

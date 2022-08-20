@@ -1,6 +1,6 @@
-package com.example.chat.mapper;
+package chat.mapper;
 
-import com.example.chat.common.Message;
+import chat.model.Message;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
