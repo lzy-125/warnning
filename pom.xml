@@ -13,6 +13,8 @@
         <module>chat-common</module>
         <module>chat-netty</module>
         <module>mapper-model</module>
+        <module>buy-common</module>
+        <module>buy</module>
     </modules>
 
     <properties>
